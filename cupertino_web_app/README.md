@@ -22,7 +22,8 @@ https://github.com/PacktPublishing/Taking-Flutter-to-the-Web/blob/main/Chapter01
 
 
 
-
+seo package 
+https://pub.dev/packages/seo_renderer
 
 
 
