@@ -17,12 +17,16 @@ flutter run -d chrome
 ### references
 
 github book examples
+
 https://github.com/PacktPublishing/Taking-Flutter-to-the-Web/blob/main/Chapter01/chapter1_final/web/index.html
 
 
 
 
-seo package 
+seo package
+
+https://github.com/iamSahdeep/seo_renderer
+
 https://pub.dev/packages/seo_renderer
 
 
