@@ -3,6 +3,6 @@ flutter_code
 
 
 
-[cupertino_web_app](./cupertino_web_app/README.md)
+[cupertino_web_app](./cupertino_web_app)
 
 
