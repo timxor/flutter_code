@@ -1,4 +1,22 @@
 import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
+
+
+Future<Widget> createImageWidgetFromNetwork(String url) async {
+  final response = await http.get(Uri.parse(url));
+
+  if (response.statusCode == 200) {
+    return Image.memory(response.bodyBytes);
+  } else {
+    throw Exception('Failed to load image');
+  }
+}
+
+
+
+
+
 
 void main() {
   runApp(const MyApp());
